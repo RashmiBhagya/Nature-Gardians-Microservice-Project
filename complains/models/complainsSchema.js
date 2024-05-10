@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 
+//complain schema
 const complainSchema = new mongoose.Schema({
   title: {
     type: String,

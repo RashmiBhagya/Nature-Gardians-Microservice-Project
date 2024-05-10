@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import validator from "validator";
  
+//feedback schema
 const feedbackSchema = new mongoose.Schema({
   name: {
     type: String,
