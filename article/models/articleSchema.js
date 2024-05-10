@@ -1,5 +1,6 @@
 import mongoose from "mongoose"
 
+//Article Schema
 const articleSchema = new mongoose.Schema({
   title: {
     type: String,
